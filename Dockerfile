@@ -299,4 +299,5 @@ VOLUME [ "/opt/data" ]
 # like `--version` would be intercepted by /init's POSIX shell.
 ENTRYPOINT [ "/init", "/opt/hermes/docker/main-wrapper.sh" ]
 # CMD [ ]
-CMD ["gateway", "start"]
+# CMD ["gateway", "start"]
+CMD ["sleep","infinity"]
